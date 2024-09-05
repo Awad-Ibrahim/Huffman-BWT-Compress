@@ -26,9 +26,7 @@ The project also includes a benchmarking file which can be used to test function
    - This variable-length encoding results in overall data compression.
 
   ### Decompression Process:
-
-The `decompress` function reverses the compression process:
-
+  
 1. Huffman decoding:
    - Uses the decoder ring to convert the Huffman-coded data back into its pre-Huffman form.
 
